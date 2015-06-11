@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GenericArray.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+   // GenericArray* _array = [[GenericArray alloc]init];
+    GenericArray* _array = [[GenericArray alloc]initWithClass:[NSString class]];
+    
+    //[_array addElement:[NSNumber numberWithFloat:1.0]];
+    [_array addElement:@"1.0"];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

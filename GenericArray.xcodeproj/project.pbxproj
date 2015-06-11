@@ -14,6 +14,7 @@
 		FB61D9111B29ABED00ACDEE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB61D9101B29ABED00ACDEE0 /* Images.xcassets */; };
 		FB61D9141B29ABED00ACDEE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB61D9121B29ABED00ACDEE0 /* LaunchScreen.xib */; };
 		FB61D9201B29ABED00ACDEE0 /* GenericArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61D91F1B29ABED00ACDEE0 /* GenericArrayTests.m */; };
+		FB61D92B1B29AC0B00ACDEE0 /* GenericArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61D92A1B29AC0B00ACDEE0 /* GenericArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FB61D9191B29ABED00ACDEE0 /* GenericArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB61D91E1B29ABED00ACDEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB61D91F1B29ABED00ACDEE0 /* GenericArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericArrayTests.m; sourceTree = "<group>"; };
+		FB61D9291B29AC0B00ACDEE0 /* GenericArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericArray.h; sourceTree = "<group>"; };
+		FB61D92A1B29AC0B00ACDEE0 /* GenericArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		FB61D9021B29ABED00ACDEE0 /* GenericArray */ = {
 			isa = PBXGroup;
 			children = (
+				FB61D9291B29AC0B00ACDEE0 /* GenericArray.h */,
+				FB61D92A1B29AC0B00ACDEE0 /* GenericArray.m */,
 				FB61D9071B29ABED00ACDEE0 /* AppDelegate.h */,
 				FB61D9081B29ABED00ACDEE0 /* AppDelegate.m */,
 				FB61D90A1B29ABED00ACDEE0 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB61D90C1B29ABED00ACDEE0 /* ViewController.m in Sources */,
+				FB61D92B1B29AC0B00ACDEE0 /* GenericArray.m in Sources */,
 				FB61D9091B29ABED00ACDEE0 /* AppDelegate.m in Sources */,
 				FB61D9061B29ABED00ACDEE0 /* main.m in Sources */,
 			);
